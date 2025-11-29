@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portofolio Riza Habibi</title>
+    <!-- ini font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ini icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- ini css -->
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="judul">
+        <a href="#">My Portofolio <span>Riza Habibi</span></a>
+      </div>
+      <div class="item">
+        <a href="#">Home</a>
+        <a href="#">My Profile</a>
+        <a href="#">My Skills</a>
+        <a href="#">My Project</a>
+        <a href="#">My Contact</a>
+      </div>
+
+      <div class="logo">
+        <a href="#"><i data-feather="github"></i></a>
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="linkedin"></i></a>
+      </div>
+    </div>
+    <main>
+      <div class="hero">
+        <div class="deskripsiH">
+          Portofolio Website <br />
+          <span>Riza Habibi</span> <br />
+          <p>Front End Developer</p>
+        </div>
+        <div class="logoHome">
+          <a href="#"><i data-feather="github"></i></a>
+          <a href="#"><i data-feather="instagram"></i></a>
+          <a href="#"><i data-feather="linkedin"></i></a>
+        </div>
+        <div class="getStarted">
+          <a href="#">Get Started</a>
+        </div>
+      </div>
+
+      <h2 class="tagAtas">My Profile</h2>
+      <div class="aboutMe">
+        <div class="foto">
+          <img
+            src="/img/pler.jpg"
+            width="100px"
+            height="100px"
+            alt="PotoGweh"
+          />
+        </div>
+        <div class="deskripsi">
+          <h2>Hi! My Name Riza Habibi</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vel
+            perferendis eum iure laborum nulla vitae iste. Unde, fuga! Non.
+          </p>
+        </div>
+        <div class="downloadCv">
+          <a href="#">Download Cv</a>
+        </div>
+      </div>
+
+      <div class="space"><br /><br /><br /><br /></div>
+      <h2 class="tagAtas">My Skills</h2>
+      <div class="mySkills">
+        <div class="Skills">
+          <div class="deskSkills">
+            <img src="/img/html.png" alt="" />
+            <p>Html</p>
+          </div>
+        </div>
+
+        <div class="Skills">
+          <div class="deskSkills">
+            <img src="/img/css-3.png" alt="" />
+            <p>Css</p>
+          </div>
+        </div>
+
+        <div class="Skills">
+          <div class="deskSkills">
+            <img src="/img/java.png" alt="" />
+            <p>JavaScript</p>
+          </div>
+        </div>
+
+        <div class="Skills">
+          <div class="deskSkills">
+            <img src="/img/typescript.png" alt="" />
+            <p>TypeScript</p>
+          </div>
+        </div>
+
+        <div class="SkillsBawah">
+          <div class="deskSkills">
+            <img src="/img/figma.png" alt="" />
+            <p>Figma</p>
+          </div>
+        </div>
+
+        <div class="SkillsBawah">
+          <div class="deskSkills">
+            <img src="/img/logo.png" alt="" />
+            <p>Adobe Illustrator</p>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="tagAtas">My Project</h2>
+
+      <div class="myProject">
+        <div class="isiProject">
+          <img src="img/image.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur unde quia dolorem impedit, rem omnis voluptas eius
+            nobis? Ducimus a ullam aliquid optio quod dicta porro nesciunt vel
+            tempore laudantium!
+          </p>
+        </div>
+      </div>
+
+      <div class="myProject">
+        <div class="isiProject">
+          <img src="img/image.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur unde quia dolorem impedit, rem omnis voluptas eius
+            nobis? Ducimus a ullam aliquid optio quod dicta porro nesciunt vel
+            tempore laudantium!
+          </p>
+        </div>
+      </div>
+
+      <br /><br /><br />
+      <h2 class="tagAtas">My Contact</h2>
+      <div class="myContact">
+        <form action="https://formspree.io/f/xgvbbbbl" method="POST">
+          <label>
+            <label for="#">Subject :</label> <br />
+            <input
+              class="subject"
+              type="text"
+              name="nama"
+              placeholder="Masukan Nama....."
+              required
+            />
+            <br />
+            <label for="#">E-Mail :</label> <br />
+            <input
+              class="gmail"
+              type="email"
+              name="email"
+              placeholder="Masukan Email....."
+              required
+            />
+            <br />
+          </label>
+          <label>
+            <label for="#"> Isi Pesan :</label> <br />
+            <textarea
+              class="msg"
+              name="message"
+              cols="85"
+              rows="8"
+              placeholder="Masukan Pesan....."
+              required 
+            ></textarea>
+            <input type="hidden" name="_format" value="plain" />
+          </label>
+          <br />
+          <button class="sendBttn" type="submit">Kirim</button>
+        </form>
+      </div>
+
+    </main>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+  <footer>
+    <p>Made By Riza Habibi</p>
+  </footer>
+</html>
