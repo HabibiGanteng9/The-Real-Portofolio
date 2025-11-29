@@ -113,6 +113,11 @@ main .deskripsiH {
   border-radius: 75px;
 }
 
+.downloadCv {
+  background-color: aqua;
+  border-radius: 20px;
+}
+
 .getStarted {
   background-color: aqua;
   border-radius: 20px;
