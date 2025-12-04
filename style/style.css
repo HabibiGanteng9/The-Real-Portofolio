@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient( #F8FAFC,#CCF2F4, #A4EBF3);
+  background: #0A1A2F;
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
@@ -15,8 +15,7 @@ body {
   justify-content: space-between;
   text-align: center;
   padding: 20px 20px;
-  background: #9ef8fd;
-  color: white;
+  background: #0A1A2F;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   flex-direction: row;
@@ -30,23 +29,32 @@ body {
 
 .navbar .judul a {
   text-decoration: none;
-  color: black;
+  color: #C7CED6;
+  text-shadow: 1px 0px 10px whitesmoke;
 }
 
 .item a {
   text-decoration: none;
-  color: black;
+  color: #C7CED6;
   margin: 15px;
 }
 
-.navbar .item a:hover {
-  color: #00767e;
-  transform: translate(3y);
+.item a:hover {
+  color: #27A8FF;
+  text-shadow: 0px 0px 5px #27A8FF;
 }
 
 .logo {
   gap: 10px;
   margin-left: auto;
+}
+
+.logo a {
+  color: #C7CED6;
+}
+
+.logo a:hover {
+  color: #27A8FF;
 }
 
 .judul {
@@ -55,8 +63,9 @@ body {
   font-size: larger;
 }
 .navbar span {
-  color: #00767e;
+  color: #27A8FF;
   font-style: italic;
+  text-shadow: 1px 0px 10px #27a8FF;
 }
 
 .hero {
@@ -64,8 +73,10 @@ body {
 }
 
 main .deskripsiH {
+  color: #C7CED6;
   font-size: 50px;
   font-weight: bolder;
+  text-shadow: 1px 20px 200px white;
 }
 
 .hero {
@@ -73,7 +84,8 @@ main .deskripsiH {
 }
 .hero span {
   font-weight: bolder;
-  color: aqua;
+  color: #27A8FF;
+  text-shadow: 1px 0px 20px #27a8FF;
 }
 
 .hero p {
@@ -82,68 +94,114 @@ main .deskripsiH {
 }
 
 .logoHome {
+  margin-top: 20px;
+}
+
+.logoHome a {
+  color: #1E90FF;
   size: 20px;
   gap: 40px;
   align-items: center;
 }
 
+.logoHome a:hover {
+  color: #C7CED6;
+}
+
 .tagAtas {
   text-align: center;
-  background-color: white;
+  background-color: transparent;
+  outline: 4px solid #081f3e;
+  color: #C7CED6;
+  font-size: larger;
   border-radius: 20px;
   margin: 7rem 40rem;
+  padding: 5px 0px;
+  text-shadow: 0px 0px 8px white;
   box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.4);
 }
 
 .aboutMe {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
   width: 90%;
   max-width: 950px;
   margin: 50px auto;
   padding: 40px;
-  background:#9ef8fd;
+  background: #081f3e;
+  color: #C7CED6;
   border-radius: 40px;
   box-shadow: 0px 15px 8px rgba(0, 0, 0, 0.4);
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  flex-wrap: wrap;
+  gap: 40px;
 }
 
-.aboutMe .foto img {
-  border-radius: 75px;
+.deskripsi {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 15px;
+  flex: 1;
+}
+  
+.foto img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 30px;
+  outline: 2px solid #27a8FF;
 }
 
 .downloadCv {
-  background-color: aqua;
+  background-color: #1E90FF;
+  font-weight: bold;
   border-radius: 20px;
+  padding: 5px 10px;
+  margin-right: 31rem;
+}
+
+.downloadCv a {
+  color: white;
+  text-decoration: none;
+}
+
+.deskripsi span {
+  color: #27A8FF;
+}
+
+.downloadCv:hover {
+  box-shadow: 0px 0px 10px #1E90FF;
+  transform: translateY(-2px);
 }
 
 .getStarted {
-  background-color: aqua;
+  background-color: #27A8FF;
   border-radius: 20px;
   margin: 20px 690px;
   padding: 12px;
-  margin-bottom: 25rem;
-  margin-bottom: 700px;
+  margin-bottom: 20rem;
+}
+
+.getStarted:hover {
+  box-shadow: 1px 1px 20px #27A8FF;
+  transform: translateY(-3px);
 }
 
 .getStarted a {
-  color: black;
+  color: white;
   text-decoration: none;
   font-weight: bolder;
-}
-
-.getStarted a:hover {
-  color: white;
 }
 
 .mySkills {
   max-width: 60rem;
   margin: 70px 50px 50px 260px;
   padding: 30px 0px 30px 40px;
-  background:#9ef8fd;
+  background:#081f3e;
+  color: #C7CED6;
   border-radius: 50px 50px 50px 50px;
-  box-shadow: 0px 15px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 15px 8px #00000066;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -159,41 +217,79 @@ main .deskripsiH {
 }
 
 .mySkills .deskSkills {
-  background: linear-gradient( #c9fbff);
-  border-radius: 10px;
+  background: transparent;
   text-align: center;
   font-size: small;
-  box-shadow: 0PX 7PX 8PX rgb(65, 65, 65) ;
+  outline: 3px solid #27A8FF;
+  border-radius: 10px;
 }
 
 .deskSkills:hover {
-  transform: translateY(-20px);
-  animation-delay: 20ms;
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 10px #27A8FF;
 }
 
 .myProject {
-  background:#91f9ff;
+  background:transparent;
   display: flex;
-  box-shadow: 0PX 7PX 16PX #414141 ;
-  margin: 80px 90px 0px 0px;
+  margin: 80px;
+  text-align: center;
+  justify-content: center;
+}
+
+.isiProject {
+  background-color: #071b36;
+  border-radius: 10px;
+  outline: 4px solid #081f3e;
+  color: #C7CED6;
+  margin: 73px;
+  justify-items: flex-start;
+  text-align: justify;
+}
+
+.isiProject:hover {
+  transform: translateY(-15px);
+  box-shadow: 0px 0px 18px #12488e;
 }
 
 .myProject img {
-  width: 200px;
-  height: auto;
+  align-self: center; 
+  width: 309px;
+  height: 200px;
+}
+
+.projectBttn {
+  background-color: #27A8FF;
+  border-radius: 10px;
+  outline: 2px solid #081f3e;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.projectBttn a {
+  color: white;
+  text-decoration: none;
+  font-size: small;
+  text-shadow: 0px 0px 8px white;
+}
+
+.projectBttn:hover {
+  box-shadow: 0px 0px 10px #27a8FF;
 }
 
 .myContact {
-  background: #9ef8fd;
+  background: #081f3e;
   padding: 50px;
   margin: 40px 20%;
   font-family: "Poppins", sans-serif;
   border-radius: 20px;
-  box-shadow: 2px 12px 20px #414141;
+  box-shadow: 2px 12px 20px #00000066;
 }
 
 .myContact label {
   font-weight: bold;
+  color: #C7CED6;
+  text-shadow: 0px 0px 12px #C7CED6;
 }
 
 .subject {
@@ -226,16 +322,17 @@ main .deskripsiH {
 
 .sendBttn {
   margin-top: 30px;
-  background-color: white;
-  color: black;
+  background-color: #27A8FF;
+  color: #C7CED6;
+  font-weight: bolder;
   border-radius: 10px;
   width: 100px;
   height: 40px;
 }
 
 .sendBttn:hover {
-  background-color: cyan;
-  color: black;
+  box-shadow: 0px 0px 10px #27A8FF;
+  transform: translateY(-3px);
 }
 
 ::placeholder {
@@ -247,6 +344,5 @@ main .deskripsiH {
 footer {
   justify-content: center;
   text-align: center;
-  background-color: white;
-  padding: 1rem;
-}
+  background-color: #081f3e;
+  padding: 1r
