@@ -384,7 +384,11 @@ footer {
     flex-direction: column;
     height: auto;
     gap: 10px;
-    padding: 15px;
+    padding: 1px;
+  }
+
+  .logo a {
+    margin-right: 70px;
   }
 
   .judul {
@@ -415,7 +419,7 @@ footer {
   .aboutMe {
     flex-direction: column;
     text-align: center;
-    padding: 25px;
+    padding:35px;
   }
 
   .foto img {
@@ -440,6 +444,7 @@ footer {
     margin: 30px auto;
     gap: 40px;
     padding: 20px;
+    border-radius: 0%;
   }
 
   .myProject {
@@ -458,8 +463,16 @@ footer {
     width: auto;
   }
 
+  .subject {
+    width: 13rem;
+  }
+
+  .gmail {
+    width: 13rem;
+  }
+
   .msg {
-    width: 18rem;
+    width: 16rem;
     height: 5rem;
   }
 }
