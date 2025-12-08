@@ -332,8 +332,7 @@ main .deskripsiH {
   color: black;
   border-radius: 20px;
   box-shadow: 1px 2px 1px black;
-  font-size: medium;
-  font-weight: bold;
+  font-size: smaller;
 } 
 
 .gmail {
@@ -343,8 +342,7 @@ main .deskripsiH {
   color: black;
   border-radius: 20px;
   box-shadow: 1px 1px 1px black;
-  font-size: medium;
-  font-weight: bold;
+  font-size: smaller;
 } 
 
 .msg {
