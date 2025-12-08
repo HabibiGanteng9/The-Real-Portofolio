@@ -77,6 +77,7 @@ body {
 
 .logo a {
   color: #C7CED6;
+  padding: 7px;
 }
 
 .logo a:hover {
@@ -127,6 +128,7 @@ main .deskripsiH {
   color: #1E90FF;
   size: 20px;
   gap: 40px;
+  padding: 8px;
   align-items: center;
 }
 
@@ -177,6 +179,7 @@ main .deskripsiH {
   object-fit: cover;
   border-radius: 30px;
   outline: 2px solid #27a8FF;
+  box-shadow: 0px 0px 20px #27A8FF;
 }
 
 .downloadCv {
@@ -194,6 +197,9 @@ main .deskripsiH {
 
 .deskripsi span {
   color: #27A8FF;
+  text-shadow: 0px 0px 10px #27A8FF;
+  font-style: italic;
+  text-decoration: underline;
 }
 
 .downloadCv:hover {
@@ -275,7 +281,7 @@ main .deskripsiH {
 
 .isiProject:hover {
   transform: translateY(-15px);
-  box-shadow: 0px 0px 18px #12488e;
+  box-shadow: 0px 0px 25px #12488e;
 }
 
 .myProject img {
@@ -287,9 +293,10 @@ main .deskripsiH {
 .projectBttn {
   background-color: #27A8FF;
   border-radius: 10px;
-  outline: 2px solid #081f3e;
   margin-bottom: 10px;
+  padding: 2.5px;
   margin-top: 10px;
+  margin-left: 10PX;
 }
 
 .projectBttn a {
@@ -348,10 +355,14 @@ main .deskripsiH {
   height: 7rem;
 }
 
+.msg::placeholder {
+  padding: 5px;
+}
+
 .sendBttn {
   margin-top: 30px;
   background-color: #27A8FF;
-  color: #C7CED6;
+  color: white;
   font-weight: bolder;
   border-radius: 10px;
   width: 100px;
@@ -375,10 +386,31 @@ footer {
   text-align: center;
   background-color: #081f3e;
   padding: 1rem;
+  margin-top: 10rem;
 }
 
 
 @media (max-width: 768px) {
+
+  #heroID {
+  scroll-margin-top: 40rem;
+}
+
+#aboutID {
+  scroll-margin-top: 13rem;
+}
+
+#skillID {
+  scroll-margin-top: 13rem;
+}
+
+#projectID {
+  scroll-margin-top: 13rem;
+}
+
+#contactID {
+  scroll-margin-top: 13rem;
+}
 
   .navbar {
     flex-direction: column;
@@ -388,7 +420,8 @@ footer {
   }
 
   .logo a {
-    margin-right: 70px;
+    display: row;
+    margin-right: 5.5rem;
   }
 
   .judul {
@@ -397,6 +430,7 @@ footer {
 
   .item a {
     margin: 10px;
+    padding: 8px;
     font-size: 14px;
   }
 
@@ -414,6 +448,7 @@ footer {
     font-size: medium;
     width: 80%;
     margin-top: 15rem;
+    margin-bottom: 50px;
   }
 
   .aboutMe {
