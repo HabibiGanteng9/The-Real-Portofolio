@@ -73,6 +73,8 @@ body {
 .logo {
   gap: 10px;
   margin-left: auto;
+    border-radius: 50%;
+  box-shadow: 0px 0px 0px cyan;
 }
 
 .logo a {
@@ -294,7 +296,7 @@ main .deskripsiH {
   background-color: #27A8FF;
   border-radius: 10px;
   margin-bottom: 10px;
-  padding: 2.5px;
+  padding: 5px 15ajq210px;
   margin-top: 10px;
   margin-left: 10PX;
 }
@@ -310,10 +312,11 @@ main .deskripsiH {
   box-shadow: 0px 0px 10px #27a8FF;
 }
 
+
 .myContact {
   background: #081f3e;
   padding: 50px;
-  margin: 40px 20%;
+  margin: 40px 25%;
   font-family: "Poppins", sans-serif;
   border-radius: 20px;
   box-shadow: 2px 12px 20px #00000066;
